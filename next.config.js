@@ -6,4 +6,7 @@ const withNextra = require('nextra')({
 module.exports = {
   ...withNextra(),
   basePath: '/rust',
+  images: {
+    unoptimized: true,
+  },
 }
